@@ -30,5 +30,6 @@ if __name__ == "__main__":
         pdfprint()                      #The test file is printed at least two days later since last printing
         recordprint()                   #write the printing date to printhistory.txt
     else:
-        print("Do not need to print the test file yet.")
+        print("\nDo not need to print the test file yet. \n")
+        os.system("pause")
 
